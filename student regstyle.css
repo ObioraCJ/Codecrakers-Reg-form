@@ -1,0 +1,136 @@
+body {
+    background-color: white;
+}
+
+div {
+    border-radius: 20px;
+   background-color:  rgb(3, 4, 58);
+   border-color: lime;
+   border-width: thick;
+   position: relative;
+   left: 280px;
+   width: 50%;
+   height: 5in;
+   
+}
+
+h1 {
+    border-radius: 20px;
+    background-color: lime;
+    text-align: center;
+    color: rgb(3, 4, 58);
+    font-family: monospace;
+    font-size: 30px;
+    padding-top: 30px;
+}
+h3 {
+    background-color: lime;
+    color: rgb(3, 4, 58);
+}
+
+.header  {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+    color: lime;
+}
+
+form {
+    line-height: 20px;
+    text-align: left;
+    margin-top: -320px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: lime;3, 4, 58);
+    
+    
+ }
+ .name {
+     border-color: lime;
+     border-radius: 10px;
+     margin-left: 20px;
+     padding: 10px;
+     
+ }
+ 
+ 
+ .email {
+    margin-top: 20px;
+    border-color: lime;
+     border-radius: 10px;
+     margin-left: 20px;
+     padding: 10px;
+     
+}
+
+.date {
+    margin-top: 20px;
+    border-color: lime;
+     border-radius: 10px;
+     margin-left: 40px;
+     padding: 10px;
+     
+}
+.age {
+    margin-top: 20px;
+    border-color: lime;
+     border-radius: 10px;
+     margin-left: 50px;
+     padding: 10px;
+     
+}
+.number {
+    margin-top: 20px;
+    border-color: lime;
+     border-radius: 10px;
+     margin-left: 10px;
+     padding: 5px;
+     
+}
+.nation {
+    
+    border-right: 50px;
+    padding-left: 5px;
+    margin-top: 20px;
+    border-color: lime;
+     border-radius: 10px;
+     margin-left: -5px;
+     padding: 5px;
+     
+}
+.gender {
+    margin-top: 20px;
+    border-color: lime;
+     border-radius: 10px;
+     margin-left: 20px;
+     padding: 10px;
+     
+}
+.degree {
+    margin-top: 20px;
+    border-color: lime;
+     border-radius: 10px;
+     margin-left: 20px;
+     padding: 10px;
+     
+}
+.occupation {
+    margin-top: 20px;
+    border-color: lime;
+     border-radius: 10px;
+     margin-left: 0px;
+     padding: 10px;
+     
+}
+.submit {
+    margin-top: 30px;
+    margin-left: 280px;
+    border-color: lime;
+     border-radius: 10px;
+     padding: 10px
+     
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Code Crackers Student Registration Form">
+        <title>Justice Project</title>
+        <link rel="stylesheet" type="text/css" href="student regstyle.css">
+    </head>
+    <body>
+        <header class="header">
+        <div>
+            <h1>CODE CRACKERS</h1>
+            <p>Dedicated and Committed to reach our Goals</p>
+            <h3 class="headers">REGISTRATION FORM</h3>
+            
+        </header>     
+        <main class="main">    
+        <form id="reg-form">
+                
+             <div>    
+                        <label id="name-label" for="name"><br>Fullname</label>
+                        <input 
+                             type="text"
+                             name="surname"
+                             id="name"
+                             class="form-control name"
+                             placeholder="Enter your fullname" required/>
+                                               
+        
+                 <label id="email-label" for="email">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="form-control email"
+                        placeholder="Enter your email" required/>
+                         <br>
+                        
+                        <label id="date-label" for="date">Date Of Birth</label>
+                        <input 
+                         type="date"
+                         name="date of birth"
+                         id="date"
+                         class="form-control date"required/>
+                     
+                    <label id="number-label" for="number">Age</label>
+                    <input 
+                        type="number"
+                        name="age"
+                        id="number"
+                        min="18"
+                        max="70"
+                        class="form-control age"
+                        placeholder="Enter your age" required/>
+                    
+                        <br>
+                    <label id="number-label" for="number">Phone NO</label>
+                    <input
+                        type="text"
+                        name="phone number"
+                        id="number"
+                        class="form-control number"
+                        placeholder="Enter your phone no" required/>
+                        
+                        Nationality
+                      <select id="dropdown" name="nationality" class="form-contol nation" required>
+                         <option disabled selected value>select your country of origin</option>
+                         <option value="nigeria">Nigeria</option>
+                         <option value="ghana">Ghana</option>
+                         <option value="kenya">Kenya</option>
+                         <option value="malawi">Malawi</option>
+                         <option value="cameroon">Cameroon</option>
+                         <option value="usa">USA</option>
+                         <option value="canada">Canada</option>
+                         <option value="united kingdom">United Kingdom</option> 
+
+                      </select>
+                                    
+                  
+                  <br>
+                  Degree 
+                  <select id="dropdown" name="degree" class="form-control degree" required>
+                   <option disabled selected value>Your highest obtained degree</option>
+                   <option value="high school degree">High school degree</option>
+                   <option value="bachelor">Bachelor's degree</option>
+                   <option value="masters">Master's degree</option>
+                   <option value="phd">PH.D</option>   
+                </select>
+                
+                Occupation
+                 <select id="dropdown" name="occupation" class="form-control occupation" required>
+                   <option disabled selected value>select your occupation</option>
+                   <option value="student">Student</option>
+                   <option value="self-employed">Self-employed</option>
+                   <option value="employed">Employed</option>
+                   <option value="unemployed">Unemployed</option>
+                   <option value="lazy to work">Lazy to work</option>  
+                 </select>
+                <br>
+                Gender
+                    <label>
+                    <input
+                        type="radio"
+                        name="user-recommend"
+                        value="male"
+                        class="input-radio gender"
+                        checked/>Male</label>
+                    
+                    <label>
+                    <input
+                        type="radio"
+                        name="user-recommend"
+                        value="female"
+                        class="input-radio"/>
+                        Female
+                    </label>  
+                    
+                    <label>
+                    <input 
+                        type="radio"
+                        name="user-recommend"
+                        value="confuse"
+                        class="input-radio"/>
+                         Confuse
+                    </label>
+                            
+             <br>
+             <button class="submit">Submit</button>
+                <p class="footer">Thanks for applying to Code Crackers</p>
+             <p class="footer">Kindly wait patiently for our response</p>
+             
+             
+            </form>
+            </main>
+        </div>
+        </div>
+    </body>
+</html> 
